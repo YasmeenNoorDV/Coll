@@ -1,0 +1,13 @@
+Moving to/away is delayed at end and doesn't show.
+When starting, shows everything.
+
+Is 10 extra enough?
+
+Make the arrows transparent.
+
+Pause and resume buttons?
+Restart button, especially when lost?
+
+Intro screen.
+
+Next level.

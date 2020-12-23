@@ -1,0 +1,189 @@
+body{
+
+  background: cyan;
+
+}
+
+h1{
+
+	color: navy;
+	text-align: center;
+
+}
+
+#container{
+
+  background: lightgreen;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  border: solid 5px darkgreen;
+	border-radius: 25px;
+  padding: 5px;
+	text-align: center;
+
+}
+
+#title{
+
+  color: navy;
+  font-size: 250px;
+	border-radius: 25px;
+	text-align: center;
+
+}
+
+#start{
+
+  color: white;
+  background: black;
+  font-size: 50px;
+  border: dashed 5px white;
+	border-radius: 30px;
+
+}
+
+#start:hover{
+
+  color: black;
+  background: white;
+  border: solid 5px black;
+
+}
+
+#character{
+
+  background: navy;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 432px;
+	border-radius: 25px;
+  z-index: 1;
+
+}
+
+#bad{
+
+  background: red;
+  height: 30px;
+  width: 30px;
+  position: relative;
+
+}
+
+#good{
+
+  background: lightgreen;
+  height: 30px;
+  width: 30px;
+  position: relative;
+
+}
+
+#controls{
+
+  color: black;
+  background: white;
+  height: 70px;
+  width: 100px;
+  position: relative;
+  left: 378px;
+  top: 340px;
+  border: solid 5px black;
+	border-radius: 25px;
+  padding: 5px;
+	text-align: center;
+
+}
+
+.arrow{
+
+  border-radius: 25px;
+  height: 45px;
+  width: 45px;
+
+}
+
+#leftArrow{
+
+  width: 48px;
+  height: 48px;
+  margin-top: 2px;
+  border-radius: 25px;
+
+}
+
+#leftArrow:hover{
+
+  content: url('Images/LeftArrowHover.png');
+
+}
+
+#rightArrow{
+
+  width: 48px;
+  height: 48px;
+  margin-top: 2px;
+  border-radius: 25px;
+
+}
+
+#rightArrow:hover{
+
+  content: url('Images/RightArrowHover.png');
+
+}
+
+#points{
+
+  color: navy;
+  background: cyan;
+  width: 100px;
+  position: relative;
+  left: 375px;
+  top: -150px;
+  border: solid 5px navy;
+	border-radius: 25px;
+	text-align: center;
+  padding: 5px;
+
+}
+
+
+#level{
+
+  color: navy;
+  background: cyan;
+  width: 100px;
+  position: relative;
+  left: 375px;
+  top: -140px;
+  border: solid 5px navy;
+	border-radius: 25px;
+	text-align: center;
+  padding: 5px;
+
+}
+
+#rules{
+
+  color: white;
+  background: black;
+  width: 100px;
+  position: relative;
+  left: 375px;
+  top: -130px;
+  border: solid 5px white;
+	text-align: center;
+  padding: 5px;
+
+}
+
+#gameOver{
+
+  color: white;
+  font-size: 200px;
+	text-align: center;
+
+}
